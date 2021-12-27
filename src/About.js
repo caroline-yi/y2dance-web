@@ -1,6 +1,6 @@
 const About = (props) => (
     <body>
-        <section class="about">
+        <section className="about">
             <header>
                 <h1>About y2dance</h1>
                 <p>
@@ -14,17 +14,17 @@ const About = (props) => (
                 Insert paragraph here about the website. Insert paragraph here about the website. Insert paragraph here about the website."
                 </p>
             </header>
-            <section class="meet-instructors">
+            <section className="meet-instructors">
                 <h1>Meet our Instructors</h1>
-                <section class="about-lingyun">
+                <section className="about-lingyun">
                     <section>
                         <h2>Lingyun Yi</h2>
                         <picture>
-                            <iframe src="https://giphy.com/embed/IB9foBA4PVkKA" width="480" height="474" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <iframe src="https://giphy.com/embed/IB9foBA4PVkKA" width="480" height="474" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                         </picture>
                     </section>
-                    <span class="lingyun-bio">
-                        <p class="lingyun-paragraph">
+                    <span className="lingyun-bio">
+                        <p className="lingyun-paragraph">
                             "Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing!
                             Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing!
                             Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing! Lingyun is amazing!
