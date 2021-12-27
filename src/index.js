@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 
-import App from './App';
-import About from './About';
+import App from './app';
+import About from './about';
 import reportWebVitals from './reportWebVitals';
 import { Link } from "react-router-dom";
 

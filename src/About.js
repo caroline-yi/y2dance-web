@@ -20,7 +20,7 @@ const About = (props) => (
                     <section>
                         <h2>Lingyun Yi</h2>
                         <picture>
-                            <iframe src="https://giphy.com/embed/IB9foBA4PVkKA" width="480" height="474" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                            <iframe title='peanut-butter-jelly-time' src="https://giphy.com/embed/IB9foBA4PVkKA" width="480" height="474" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                         </picture>
                     </section>
                     <span className="lingyun-bio">
