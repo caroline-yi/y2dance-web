@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import App from './App';
-import About from './About';
+
+import Home from './home/home';
+import About from './about/about';
 import reportWebVitals from './reportWebVitals';
 import { Link } from "react-router-dom";
 
@@ -15,7 +16,7 @@ ReactDOM.render(
         <Link to="/about">About</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
       </Routes>
     </BrowserRouter>

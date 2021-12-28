@@ -1,9 +1,9 @@
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <h1>This is the home page</h1>
     </div>
   );
 }
 
-export default App;
+export default Home;
