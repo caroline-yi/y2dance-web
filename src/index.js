@@ -3,24 +3,20 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 
+import Header from './header/header';
 import Home from './home/home';
 import About from './about/about';
-import Class from './Class';
+import Class from './class';
 import reportWebVitals from './reportWebVitals';
-import { Link } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/Class">Class</Link>
-      </nav>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="Class" element={<Class />} />
+        <Route path="class" element={<Class />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
