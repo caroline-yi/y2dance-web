@@ -1,6 +1,13 @@
-.navigation-list {
+.navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-end;
     list-style: none;
+}
+
+.navigation li {
+    flex-grow: 1;
+    margin-right: 2em;
+    padding-bottom: 1em;
 }
