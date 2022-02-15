@@ -1,4 +1,9 @@
+#root {
+    font-family: sans-serif;
+    font-weight: 700
+}
 @import './about/about.css';
 @import './header/header.css';
 @import './home/home.css';
 @import './header/navigation/navigation.css'
+

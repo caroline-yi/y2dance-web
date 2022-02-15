@@ -1,5 +1,6 @@
 .header {
-    display: flex
+    display: flex;
+    margin-top: 1em;
 }
 .y2dance-logo {
     margin-right: 4em;
