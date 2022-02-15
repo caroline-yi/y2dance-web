@@ -5,18 +5,14 @@ import './index.css';
 
 import Home from './home/home';
 import About from './about/about';
-import Class from './Class';
+import Class from './class';
+import Navigation from './navigation/navigation';
 import reportWebVitals from './reportWebVitals';
-import { Link } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/Class">Class</Link>
-      </nav>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
