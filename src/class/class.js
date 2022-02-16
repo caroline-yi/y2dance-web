@@ -9,13 +9,14 @@ class Dance {
 }
 
 class DanceClass {
-  constructor(title, instructor, description, price, date, dance) {
+  constructor(title, instructor, description, price, date, dance, signup_form_url) {
     this.title = title;
     this.instructor = instructor;
     this.description = description;
     this.price = price;
     this.date = date
     this.dance = dance
+    this.signup_form_url = signup_form_url
   }
 }
 
