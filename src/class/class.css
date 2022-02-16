@@ -1,0 +1,37 @@
+.class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class p {
+    cursor: default;
+}
+
+.class span {
+    cursor: default;
+}
+
+.dance-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f48fb1;
+    font-weight: 500;
+    color: black;
+}
+
+.dance-class p {
+    margin: 0em;
+}
+
+.dance-class p:first-of-type {
+    margin-top: 1.5em;
+}
+
+
+.dance-class + div {
+    background-color: transparent;
+    font-weight: 700;
+    color: black;
+}
