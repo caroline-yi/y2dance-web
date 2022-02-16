@@ -5,7 +5,7 @@ import './index.css';
 
 import Home from './home/home';
 import About from './about/about';
-import Class from './Class';
+import Class from './class/class';
 import reportWebVitals from './reportWebVitals';
 import { Link } from "react-router-dom";
 
